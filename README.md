@@ -1,3 +1,22 @@
+# Twilio Flex IVR Announcements
+
+This Flex plugin adds a standalone feature to play/stop announcements to callers with the ability to manage announcements in Twilio Sync.
+
+
+# User Interface
+
+![demo](/docs/static/img/features/message-player/demo.png)
+
+# Setup
+
+1. Configure **default** Flex Sync service to have a new Sync Map called `Announcements`
+2. Add the announcements as Sync Map items with the payload like:
+   ```json
+   {"label":"Some label", "path":"https://example.twil.io/path/to/file.mp3"}
+   ```
+3. Configure the UI properties
+
+
 # Twilio Flex Project Template
 
 The _Flex Project Template_ is a starting point for Flex solutions of any size. It provides a methodology for managing all the key assets of a Twilio Flex solution:
