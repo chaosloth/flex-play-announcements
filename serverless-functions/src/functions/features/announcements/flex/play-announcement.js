@@ -25,6 +25,7 @@ exports.handler = prepareFlexFunction(requiredParameters, async (context, event,
     console.log('result:', result);
     const { status } = result;
     response.setStatusCode(status);
+    response.setBody({ status: 'ok' });
 
     return callback(null, response);
   } catch (error) {
