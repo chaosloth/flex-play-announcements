@@ -1,2 +1,2 @@
-tfstate_service_name=tfstate
+tfstate_service_name=tfstate-flex-play-announcements
 tfstate_version=3

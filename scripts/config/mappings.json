@@ -10,7 +10,7 @@
   },
   "SERVERLESS_DOMAIN": {
     "type": "serverless-domain",
-    "name": "custom-flex-extensions-serverless"
+    "name": "serverless_functions_domain_flex_play_announcements"
   },
   "SERVERLESS_CALLBACK_FUNCTION_SID": {
     "type": "serverless-function",

@@ -1,3 +1,0 @@
-{
-  "PSAgentAutomationWrapupSecondsRemaining": "Encerramento | {{seconds}} {{#if singular}}segundo restante{{else}}segundos restantes{{/if}}"
-}

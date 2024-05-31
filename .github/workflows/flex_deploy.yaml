@@ -219,7 +219,7 @@ jobs:
       TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
       TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
       TWILIO_API_SECRET: ${{ secrets.TWILIO_API_SECRET }}
-      PLUGIN_FOLDER: plugin-flex-ts-template-v2
+      PLUGIN_FOLDER: flex-template-flex-play-announcements
     steps:
       - uses: actions/checkout@v4
       - name: setup node.js
