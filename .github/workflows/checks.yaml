@@ -79,7 +79,7 @@ jobs:
         working-directory: ./flex-template-flex-play-announcements
         run: npm run test:ci
       - name: Publish test results
-        uses: mikepenz/action-junit-report@v4
+        uses: mikepenz/action-junit-report@v5
         if: always()
         with:
           report_paths: './flex-template-flex-play-announcements/test-results/junit.xml'
